@@ -32,8 +32,8 @@ We propose an ideal protocol for implementing a photon-photon controlled phase g
 [Chapter 6: The spin-photon interface subjected to a in-plane magnetic field](Chapter6)
 
 
-**
-Acknowledgments.** This project has received funding from the European Union’s Horizon 2020 Research and innovation Programme under the Marie Skłodowska-Curie Grant Agreement No. 861097.
+
+Acknowledgments: This project has received funding from the European Union’s Horizon 2020 Research and innovation Programme under the Marie Skłodowska-Curie Grant Agreement No. 861097.
 
 
 
