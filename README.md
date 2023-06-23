@@ -33,3 +33,7 @@ We propose an ideal protocol for implementing a photon-photon controlled phase g
 
 
 
+Acknowledgements: This project has received funding from the European Union’s Horizon 2020 Research and innovation Programme under the Marie Skłodowska-Curie Grant Agreement No. 861097.
+
+
+
