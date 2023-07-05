@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[    399256,       9177]
-NotebookOptionsPosition[    385502,       8934]
-NotebookOutlinePosition[    385923,       8951]
-CellTagsIndexPosition[    385880,       8948]
+NotebookDataLength[    359468,       8118]
+NotebookOptionsPosition[    345950,       7879]
+NotebookOutlinePosition[    346371,       7896]
+CellTagsIndexPosition[    346328,       7893]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -7127,6 +7127,7 @@ Cell[BoxData[{
         RowBox[{"\[Chi]errorUpDecomposition", "/.", " ", 
          RowBox[{"r", "->", "x"}]}], ",", 
         RowBox[{"ColorFunctionScaling", "->", "False"}], ",", 
+        "\[IndentingNewLine]", 
         RowBox[{"ColorFunction", "->", 
          RowBox[{"(", 
           RowBox[{
@@ -7152,8 +7153,9 @@ Cell[BoxData[{
          RowBox[{"Style", "[", 
           RowBox[{
            RowBox[{"\"\<\!\(\*OverscriptBox[\(m\), \(~\)]\)=\>\"", "<>", 
-            RowBox[{"ToString", "@", "x"}]}], ",", "Black", ",", "14"}], 
-          "]"}]}], ",", "\[IndentingNewLine]", 
+            RowBox[{"ToString", "@", "x"}]}], ",", "Black", ",", "20", ",", 
+           RowBox[{"FontFamily", "->", "\"\<Serif\>\""}]}], "]"}]}], ",", 
+        "\[IndentingNewLine]", 
         RowBox[{"Epilog", "->", 
          RowBox[{"Table", "[", 
           RowBox[{
@@ -7193,6 +7195,7 @@ Cell[BoxData[{
         RowBox[{"\[Chi]errorDwDecomposition", "/.", " ", 
          RowBox[{"r", "->", "x"}]}], ",", 
         RowBox[{"ColorFunctionScaling", "->", "False"}], ",", 
+        "\[IndentingNewLine]", 
         RowBox[{"ColorFunction", "->", 
          RowBox[{"(", 
           RowBox[{
@@ -7212,6 +7215,7 @@ Cell[BoxData[{
         RowBox[{"FrameTicksStyle", "->", 
          RowBox[{"Opacity", "[", "1", "]"}]}], ",", 
         RowBox[{"FrameTicks", "->", "LowerRowTicks"}], ",", 
+        "\[IndentingNewLine]", 
         RowBox[{"PlotTheme", "->", "\"\<Business\>\""}], ",", 
         RowBox[{"Epilog", "->", 
          RowBox[{"Table", "[", 
@@ -7248,9 +7252,10 @@ Cell[BoxData[{
  CellChangeTimes->{{3.897494895534236*^9, 3.897494937079576*^9}, {
    3.897495271551971*^9, 3.897495287053399*^9}, {3.897495340653285*^9, 
    3.897495442491391*^9}, {3.897495513614209*^9, 3.897495545369658*^9}, 
-   3.897495752110558*^9},
- CellLabel->
-  "In[148]:=",ExpressionUUID->"2dd28680-0b13-452a-ae56-8008b859396f"],
+   3.897495752110558*^9, {3.897529901402676*^9, 3.8975299117324467`*^9}, 
+   3.897529979186831*^9, {3.897530114071877*^9, 3.8975301982415667`*^9}, 
+   3.89753461104161*^9},ExpressionUUID->"2dd28680-0b13-452a-ae56-\
+8008b859396f"],
 
 Cell[BoxData[
  TagBox[GridBox[{
@@ -7328,7 +7333,8 @@ KH5Esjm4whkAvRjEEQ==
         "RangePadding" -> Scaled[0.05]},
       PlotLabel->FormBox[
         StyleBox["\"\\!\\(\\*OverscriptBox[\\(m\\), \\(~\\)]\\)=0\"", 
-         GrayLevel[0], 14, StripOnInput -> False], TraditionalForm]], 
+         GrayLevel[0], 20, FontFamily -> "Serif", StripOnInput -> False], 
+        TraditionalForm]], 
      GraphicsBox[RasterBox[CompressedData["
 1:eJxTTMoPSmVmYGBggWIQ20T00cQKz0f20rtuymuYP7UXKPa8Wrb5nf2xzvVl
 Is+P2bc6znSb3H3Z/rCAZa3t/bcjTnztEtH7AT/e2mdEfu9v1Xhp/99hZ+59
@@ -7402,7 +7408,8 @@ Is+P2bc6znSb3H3Z/rCAZa3t/bcjTnztEtH7AT/e2mdEfu9v1Xhp/99hZ+59
         "RangePadding" -> Scaled[0.05]},
       PlotLabel->FormBox[
         StyleBox["\"\\!\\(\\*OverscriptBox[\\(m\\), \\(~\\)]\\)=0.5\"", 
-         GrayLevel[0], 14, StripOnInput -> False], TraditionalForm]], 
+         GrayLevel[0], 20, FontFamily -> "Serif", StripOnInput -> False], 
+        TraditionalForm]], 
      GraphicsBox[RasterBox[CompressedData["
 1:eJxTTMoPSmVmYGBggWIQu0FmzkJpvqv2KS9rD8Wm3bVnndmbHKf2zv5Y5/oy
 kefH7FsdZ7pN7r5sf1jAstb2/tsRJ156VEBz9prX9mukfvB/XHHPvunKJOOd
@@ -7477,7 +7484,8 @@ e0+RbA6ucAYAymPBiw==
         "RangePadding" -> Scaled[0.05]},
       PlotLabel->FormBox[
         StyleBox["\"\\!\\(\\*OverscriptBox[\\(m\\), \\(~\\)]\\)=0.8\"", 
-         GrayLevel[0], 14, StripOnInput -> False], TraditionalForm]], 
+         GrayLevel[0], 20, FontFamily -> "Serif", StripOnInput -> False], 
+        TraditionalForm]], 
      GraphicsBox[RasterBox[CompressedData["
 1:eJxTTMoPSmVmYGBggWIQ+1jn+jKR58fsWx1nuk3uvmx/WMCy1vb+W/tRcYi4
 6Ik3OlXqr+xFoh0vC2kftHfk35orwXqUauYDAJ/cwFA=
@@ -7550,7 +7558,8 @@ e0+RbA6ucAYAymPBiw==
         "RangePadding" -> Scaled[0.05]},
       PlotLabel->FormBox[
         StyleBox["\"\\!\\(\\*OverscriptBox[\\(m\\), \\(~\\)]\\)=1.\"", 
-         GrayLevel[0], 14, StripOnInput -> False], TraditionalForm]]},
+         GrayLevel[0], 20, FontFamily -> "Serif", StripOnInput -> False], 
+        TraditionalForm]]},
     {
      GraphicsBox[RasterBox[CompressedData["
 1:eJxTTMoPSmVmYGBggWIQ+1jn+jKR58fsWx1nuk3uvmx/WMCy1vb+W3tSxdes
@@ -7845,9 +7854,10 @@ lUnGO/eeItmcBpk5C6X5rtqnvKw9FJt21551Zm9ynNo7ewDZZsPU
   "Grid"]], "Output",
  CellChangeTimes->{
   3.89749539311078*^9, 3.897495443539131*^9, {3.8974955290725937`*^9, 
-   3.897495546451015*^9}, 3.8974957529030123`*^9},
+   3.897495546451015*^9}, 3.8974957529030123`*^9, {3.897529970468429*^9, 
+   3.897529980369855*^9}, {3.897530178580724*^9, 3.897530199078454*^9}},
  CellLabel->
-  "Out[151]=",ExpressionUUID->"2df0c1a4-cd69-40c4-9ddc-cb10af6894c1"]
+  "Out[183]=",ExpressionUUID->"f357a50f-a6b5-4c67-b1ec-231e7afa000c"]
 }, Open  ]],
 
 Cell[BoxData[{
@@ -7862,1072 +7872,7 @@ Cell[BoxData[{
     RowBox[{"overleafPath", "<>", "\"\<Chap5ErrorProcessMatrixPlot.pdf\>\""}],
      ",", "%"}], "]"}], ";"}]}], "Input",
  CellLabel->
-  "In[144]:=",ExpressionUUID->"50d6966a-082f-48fd-a601-7027d567de5a"],
-
-Cell[CellGroupData[{
-
-Cell[BoxData[{
- RowBox[{
-  RowBox[{"DecompositionXYFrameTick", "=", 
-   RowBox[{"{", 
-    RowBox[{
-     RowBox[{"{", 
-      RowBox[{"1", ",", "\"\<I\>\""}], "}"}], ",", 
-     RowBox[{"{", 
-      RowBox[{"2", ",", "\"\<X\>\""}], "}"}], ",", 
-     RowBox[{"{", 
-      RowBox[{"3", ",", "\"\<Y\>\""}], "}"}], ",", 
-     RowBox[{"{", 
-      RowBox[{"4", ",", "\"\<Z\>\""}], "}"}]}], "}"}]}], ";"}], "\n", 
- RowBox[{
-  RowBox[{"AllTicks", "=", 
-   RowBox[{"{", 
-    RowBox[{
-    "DecompositionXYFrameTick", ",", "DecompositionXYFrameTick", ",", "None", 
-     ",", "None"}], "}"}]}], ";"}], "\n", 
- RowBox[{
-  RowBox[{
-   RowBox[{"LowerRowTicks", "=", 
-    RowBox[{"{", 
-     RowBox[{
-     "DecompositionXYFrameTick", ",", "DecompositionXYFrameTick", ",", "None",
-       ",", "None"}], "}"}]}], ";"}], "\n"}], "\[IndentingNewLine]", 
- RowBox[{"Grid", "[", 
-  RowBox[{"{", 
-   RowBox[{
-    RowBox[{"{", 
-     RowBox[{"Table", "[", 
-      RowBox[{
-       RowBox[{"Style", "[", 
-        RowBox[{
-         RowBox[{"StringForm", "[", 
-          RowBox[{"\"\<x = ``\>\"", ",", "x"}], "]"}], ",", "Bold", ",", 
-         "14"}], "]"}], ",", 
-       RowBox[{"{", 
-        RowBox[{"x", ",", 
-         RowBox[{"{", 
-          RowBox[{"0.", ",", "0.5", ",", "0.8", ",", "1."}], "}"}]}], "}"}]}],
-       "]"}], "}"}], ",", 
-    RowBox[{"Table", "[", 
-     RowBox[{
-      RowBox[{"MatrixPlot", "[", 
-       RowBox[{
-        RowBox[{"\[Chi]errorUpDecomposition", "/.", " ", 
-         RowBox[{"r", "->", "x"}]}], ",", 
-        RowBox[{"ColorFunctionScaling", "->", "False"}], ",", 
-        RowBox[{"ColorFunction", "->", 
-         RowBox[{"(", 
-          RowBox[{
-           RowBox[{
-            RowBox[{"ColorData", "[", "\"\<TemperatureMap\>\"", "]"}], "[", 
-            RowBox[{"Rescale", "[", 
-             RowBox[{"#", ",", 
-              RowBox[{"{", 
-               RowBox[{"1", ",", 
-                RowBox[{"-", "1"}]}], "}"}], ",", 
-              RowBox[{"{", 
-               RowBox[{"1", ",", 
-                RowBox[{"-", "1"}]}], "}"}]}], "]"}], "]"}], "&"}], ")"}]}], 
-        ",", 
-        RowBox[{"ImageSize", "->", "300"}], ",", 
-        RowBox[{"ColorFunctionScaling", "->", "True"}], ",", 
-        RowBox[{"FrameTicksStyle", "->", 
-         RowBox[{"Opacity", "[", "1", "]"}]}], ",", 
-        RowBox[{"FrameTicks", "->", "AllTicks"}], ",", 
-        RowBox[{"PlotTheme", "->", "\"\<Business\>\""}], ",", 
-        RowBox[{"Epilog", "->", 
-         RowBox[{"Table", "[", 
-          RowBox[{
-           RowBox[{"Text", "[", 
-            RowBox[{
-             RowBox[{"\[Chi]errorUpDecomposition", "[", 
-              RowBox[{"[", 
-               RowBox[{"i", ",", "j"}], "]"}], "]"}], ",", 
-             RowBox[{"{", 
-              RowBox[{
-               RowBox[{"j", "-", "0.5"}], ",", 
-               RowBox[{
-                RowBox[{"Length", "[", "\[Chi]errorUpDecomposition", "]"}], 
-                "-", "i", "+", "0.5"}]}], "}"}]}], "]"}], ",", 
-           RowBox[{"{", 
-            RowBox[{"i", ",", 
-             RowBox[{"Length", "[", "\[Chi]errorUpDecomposition", "]"}]}], 
-            "}"}], ",", 
-           RowBox[{"{", 
-            RowBox[{"j", ",", 
-             RowBox[{"Length", "[", 
-              RowBox[{"\[Chi]errorUpDecomposition", "[", 
-               RowBox[{"[", "i", "]"}], "]"}], "]"}]}], "}"}]}], "]"}]}], ",", 
-        RowBox[{"PlotLabel", "->", 
-         RowBox[{"Style", "[", 
-          RowBox[{
-           RowBox[{"StringForm", "[", 
-            RowBox[{"\"\<x = ``\>\"", ",", "x"}], "]"}], ",", "Bold", ",", 
-           "14"}], "]"}]}]}], "]"}], ",", 
-      RowBox[{"{", 
-       RowBox[{"x", ",", 
-        RowBox[{"{", 
-         RowBox[{"0.", ",", "0.5", ",", "0.8", ",", "1."}], "}"}]}], "}"}]}], 
-     "]"}], ",", 
-    RowBox[{"Table", "[", 
-     RowBox[{
-      RowBox[{"MatrixPlot", "[", 
-       RowBox[{
-        RowBox[{"\[Chi]errorDwDecomposition", "/.", " ", 
-         RowBox[{"r", "->", "x"}]}], ",", 
-        RowBox[{"ColorFunctionScaling", "->", "False"}], ",", 
-        RowBox[{"ColorFunction", "->", 
-         RowBox[{"(", 
-          RowBox[{
-           RowBox[{
-            RowBox[{"ColorData", "[", "\"\<TemperatureMap\>\"", "]"}], "[", 
-            RowBox[{"Rescale", "[", 
-             RowBox[{"#", ",", 
-              RowBox[{"{", 
-               RowBox[{
-                RowBox[{"-", "1"}], ",", "1"}], "}"}], ",", 
-              RowBox[{"{", 
-               RowBox[{
-                RowBox[{"-", "1"}], ",", "1"}], "}"}]}], "]"}], "]"}], "&"}], 
-          ")"}]}], ",", 
-        RowBox[{"ImageSize", "->", "300"}], ",", 
-        RowBox[{"ColorFunctionScaling", "->", "True"}], ",", 
-        RowBox[{"FrameTicksStyle", "->", 
-         RowBox[{"Opacity", "[", "1", "]"}]}], ",", 
-        RowBox[{"FrameTicks", "->", "LowerRowTicks"}], ",", 
-        RowBox[{"PlotTheme", "->", "\"\<Business\>\""}], ",", 
-        RowBox[{"Epilog", "->", 
-         RowBox[{"Table", "[", 
-          RowBox[{
-           RowBox[{"Text", "[", 
-            RowBox[{
-             RowBox[{"\[Chi]errorDwDecomposition", "[", 
-              RowBox[{"[", 
-               RowBox[{"i", ",", "j"}], "]"}], "]"}], ",", 
-             RowBox[{"{", 
-              RowBox[{
-               RowBox[{"j", "-", "0.5"}], ",", 
-               RowBox[{
-                RowBox[{"Length", "[", "\[Chi]errorDwDecomposition", "]"}], 
-                "-", "i", "+", "0.5"}]}], "}"}]}], "]"}], ",", 
-           RowBox[{"{", 
-            RowBox[{"i", ",", 
-             RowBox[{"Length", "[", "\[Chi]errorDwDecomposition", "]"}]}], 
-            "}"}], ",", 
-           RowBox[{"{", 
-            RowBox[{"j", ",", 
-             RowBox[{"Length", "[", 
-              RowBox[{"\[Chi]errorDwDecomposition", "[", 
-               RowBox[{"[", "i", "]"}], "]"}], "]"}]}], "}"}]}], "]"}]}], ",", 
-        RowBox[{"PlotLabel", "->", 
-         RowBox[{"Style", "[", 
-          RowBox[{
-           RowBox[{"StringForm", "[", 
-            RowBox[{"\"\<x = ``\>\"", ",", "x"}], "]"}], ",", "Bold", ",", 
-           "14"}], "]"}]}]}], "]"}], ",", 
-      RowBox[{"{", 
-       RowBox[{"x", ",", 
-        RowBox[{"{", 
-         RowBox[{"0.", ",", "0.5", ",", "0.8", ",", "1."}], "}"}]}], "}"}]}], 
-     "]"}]}], "}"}], "]"}], "\n"}], "Input",
- CellChangeTimes->{{3.897495150005253*^9, 3.89749515000776*^9}},
- CellLabel->
-  "In[116]:=",ExpressionUUID->"78647062-6288-4129-b376-5a48021698d3"],
-
-Cell[BoxData[
- TagBox[GridBox[{
-    {
-     RowBox[{"{", 
-      RowBox[{
-       StyleBox[
-        InterpretationBox["\<\"x = \\!\\(\\*RowBox[{\\\"0.`\\\"}]\\)\"\>",
-         StringForm["x = ``", 0.],
-         Editable->False],
-        StripOnInput->False,
-        FontSize->14,
-        FontWeight->Bold], ",", 
-       StyleBox[
-        InterpretationBox["\<\"x = \\!\\(\\*RowBox[{\\\"0.5`\\\"}]\\)\"\>",
-         StringForm["x = ``", 0.5],
-         Editable->False],
-        StripOnInput->False,
-        FontSize->14,
-        FontWeight->Bold], ",", 
-       StyleBox[
-        InterpretationBox["\<\"x = \\!\\(\\*RowBox[{\\\"0.8`\\\"}]\\)\"\>",
-         StringForm["x = ``", 0.8],
-         Editable->False],
-        StripOnInput->False,
-        FontSize->14,
-        FontWeight->Bold], ",", 
-       StyleBox[
-        InterpretationBox["\<\"x = \\!\\(\\*RowBox[{\\\"1.`\\\"}]\\)\"\>",
-         StringForm["x = ``", 1.],
-         Editable->False],
-        StripOnInput->False,
-        FontSize->14,
-        FontWeight->Bold]}], "}"}], "", "", ""},
-    {
-     GraphicsBox[RasterBox[CompressedData["
-1:eJxTTMoPSmVmYGBggWIQO8trE5+7+Bt7e+mdeV4/39hv50pakD3/vf2xzvVl
-Is+P2bc6znSb3H3Z/rCAZa3t/bcjTrxs9fMl38++t68/mHdj24r39peO1zgs
-KH5Esjm4whkAvRjEEQ==
-       "], {{0, 0}, {4, 4}}, {0, 1}],
-      Axes->False,
-      Epilog->{{
-         InsetBox[
-          FormBox[
-           RowBox[{
-             FractionBox["1", "8"], " ", 
-             RowBox[{"(", 
-               RowBox[{
-                 RowBox[{"r", " ", 
-                   RowBox[{"(", 
-                    RowBox[{"r", "+", "2"}], ")"}]}], "+", "5"}], ")"}]}], 
-           TraditionalForm], {0.5, 3.5}], 
-         InsetBox[
-          FormBox["0", TraditionalForm], {1.5, 3.5}], 
-         InsetBox[
-          FormBox["0", TraditionalForm], {2.5, 3.5}], 
-         InsetBox[
-          FormBox[
-           RowBox[{
-             RowBox[{"-", 
-               FractionBox["1", "8"]}], " ", 
-             RowBox[{"(", 
-               RowBox[{"r", "-", "1"}], ")"}], " ", 
-             RowBox[{"(", 
-               RowBox[{"r", "+", "3"}], ")"}]}], TraditionalForm], {3.5, 
-          3.5}]}, {
-         InsetBox[
-          FormBox["0", TraditionalForm], {0.5, 2.5}], 
-         InsetBox[
-          FormBox["0", TraditionalForm], {1.5, 2.5}], 
-         InsetBox[
-          FormBox["0", TraditionalForm], {2.5, 2.5}], 
-         InsetBox[
-          FormBox["0", TraditionalForm], {3.5, 2.5}]}, {
-         InsetBox[
-          FormBox["0", TraditionalForm], {0.5, 1.5}], 
-         InsetBox[
-          FormBox["0", TraditionalForm], {1.5, 1.5}], 
-         InsetBox[
-          FormBox["0", TraditionalForm], {2.5, 1.5}], 
-         InsetBox[
-          FormBox["0", TraditionalForm], {3.5, 1.5}]}, {
-         InsetBox[
-          FormBox[
-           RowBox[{
-             RowBox[{"-", 
-               FractionBox["1", "8"]}], " ", 
-             RowBox[{"(", 
-               RowBox[{"r", "-", "1"}], ")"}], " ", 
-             RowBox[{"(", 
-               RowBox[{"r", "+", "3"}], ")"}]}], TraditionalForm], {0.5, 
-          0.5}], 
-         InsetBox[
-          FormBox["0", TraditionalForm], {1.5, 0.5}], 
-         InsetBox[
-          FormBox["0", TraditionalForm], {2.5, 0.5}], 
-         InsetBox[
-          FormBox[
-           RowBox[{
-             FractionBox["1", "8"], " ", 
-             RowBox[{"(", 
-               RowBox[{"r", "-", "1"}], ")"}], " ", 
-             RowBox[{"(", 
-               RowBox[{"r", "+", "3"}], ")"}]}], TraditionalForm], {3.5, 
-          0.5}]}},
-      Frame->True,
-      FrameLabel->{None, None},
-      FrameStyle->Automatic,
-      FrameTicks->{{{{3.5, 
-           FormBox["\"I\"", TraditionalForm]}, {2.5, 
-           FormBox["\"X\"", TraditionalForm]}, {1.5, 
-           FormBox["\"Y\"", TraditionalForm]}, {0.5, 
-           FormBox["\"Z\"", TraditionalForm]}}, None}, {{{0.5, 
-           FormBox["\"I\"", TraditionalForm]}, {1.5, 
-           FormBox["\"X\"", TraditionalForm]}, {2.5, 
-           FormBox["\"Y\"", TraditionalForm]}, {3.5, 
-           FormBox["\"Z\"", TraditionalForm]}}, None}},
-      FrameTicksStyle->Opacity[1],
-      GridLines->Automatic,
-      GridLinesStyle->Directive[
-        GrayLevel[0, 0.4], 
-        AbsoluteThickness[1], 
-        AbsoluteDashing[{1, 2}]],
-      ImageSize->300,
-      Method->{
-       "GridLinesInFront" -> True, "AxisPadding" -> Scaled[0.02], 
-        "DefaultBoundaryStyle" -> Automatic, 
-        "DefaultGraphicsInteraction" -> {
-         "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
-          "Effects" -> {
-           "Highlight" -> {"ratio" -> 2}, "HighlightPoint" -> {"ratio" -> 2}, 
-            "Droplines" -> {
-             "freeformCursorMode" -> True, 
-              "placement" -> {"x" -> "All", "y" -> "None"}}}}, 
-        "DefaultPlotStyle" -> Automatic, "DomainPadding" -> Scaled[0.02], 
-        "RangePadding" -> Scaled[0.05]},
-      PlotLabel->FormBox[
-        StyleBox[
-         InterpretationBox[
-         "\"x = \\!\\(\\*FormBox[\\\"0.`\\\", TraditionalForm]\\)\"", 
-          StringForm["x = ``", 0.], Editable -> False], Bold, 14, 
-         StripOnInput -> False], TraditionalForm]], 
-     GraphicsBox[RasterBox[CompressedData["
-1:eJxTTMoPSmVmYGBggWIQ20T00cQKz0f20rtuymuYP7UXKPa8Wrb5nf2xzvVl
-Is+P2bc6znSb3H3Z/rCAZa3t/bcjTnztEtH7AT/e2mdEfu9v1Xhp/99hZ+59
-5Yskm4MrnAEbFMIg
-       "], {{0, 0}, {4, 4}}, {0, 1}],
-      Axes->False,
-      Epilog->{{
-         InsetBox[
-          FormBox[
-           RowBox[{
-             FractionBox["1", "8"], " ", 
-             RowBox[{"(", 
-               RowBox[{
-                 RowBox[{"r", " ", 
-                   RowBox[{"(", 
-                    RowBox[{"r", "+", "2"}], ")"}]}], "+", "5"}], ")"}]}], 
-           TraditionalForm], {0.5, 3.5}], 
-         InsetBox[
-          FormBox["0", TraditionalForm], {1.5, 3.5}], 
-         InsetBox[
-          FormBox["0", TraditionalForm], {2.5, 3.5}], 
-         InsetBox[
-          FormBox[
-           RowBox[{
-             RowBox[{"-", 
-               FractionBox["1", "8"]}], " ", 
-             RowBox[{"(", 
-               RowBox[{"r", "-", "1"}], ")"}], " ", 
-             RowBox[{"(", 
-               RowBox[{"r", "+", "3"}], ")"}]}], TraditionalForm], {3.5, 
-          3.5}]}, {
-         InsetBox[
-          FormBox["0", TraditionalForm], {0.5, 2.5}], 
-         InsetBox[
-          FormBox["0", TraditionalForm], {1.5, 2.5}], 
-         InsetBox[
-          FormBox["0", TraditionalForm], {2.5, 2.5}], 
-         InsetBox[
-          FormBox["0", TraditionalForm], {3.5, 2.5}]}, {
-         InsetBox[
-          FormBox["0", TraditionalForm], {0.5, 1.5}], 
-         InsetBox[
-          FormBox["0", TraditionalForm], {1.5, 1.5}], 
-         InsetBox[
-          FormBox["0", TraditionalForm], {2.5, 1.5}], 
-         InsetBox[
-          FormBox["0", TraditionalForm], {3.5, 1.5}]}, {
-         InsetBox[
-          FormBox[
-           RowBox[{
-             RowBox[{"-", 
-               FractionBox["1", "8"]}], " ", 
-             RowBox[{"(", 
-               RowBox[{"r", "-", "1"}], ")"}], " ", 
-             RowBox[{"(", 
-               RowBox[{"r", "+", "3"}], ")"}]}], TraditionalForm], {0.5, 
-          0.5}], 
-         InsetBox[
-          FormBox["0", TraditionalForm], {1.5, 0.5}], 
-         InsetBox[
-          FormBox["0", TraditionalForm], {2.5, 0.5}], 
-         InsetBox[
-          FormBox[
-           RowBox[{
-             FractionBox["1", "8"], " ", 
-             RowBox[{"(", 
-               RowBox[{"r", "-", "1"}], ")"}], " ", 
-             RowBox[{"(", 
-               RowBox[{"r", "+", "3"}], ")"}]}], TraditionalForm], {3.5, 
-          0.5}]}},
-      Frame->True,
-      FrameLabel->{None, None},
-      FrameStyle->Automatic,
-      FrameTicks->{{{{3.5, 
-           FormBox["\"I\"", TraditionalForm]}, {2.5, 
-           FormBox["\"X\"", TraditionalForm]}, {1.5, 
-           FormBox["\"Y\"", TraditionalForm]}, {0.5, 
-           FormBox["\"Z\"", TraditionalForm]}}, None}, {{{0.5, 
-           FormBox["\"I\"", TraditionalForm]}, {1.5, 
-           FormBox["\"X\"", TraditionalForm]}, {2.5, 
-           FormBox["\"Y\"", TraditionalForm]}, {3.5, 
-           FormBox["\"Z\"", TraditionalForm]}}, None}},
-      FrameTicksStyle->Opacity[1],
-      GridLines->Automatic,
-      GridLinesStyle->Directive[
-        GrayLevel[0, 0.4], 
-        AbsoluteThickness[1], 
-        AbsoluteDashing[{1, 2}]],
-      ImageSize->300,
-      Method->{
-       "GridLinesInFront" -> True, "AxisPadding" -> Scaled[0.02], 
-        "DefaultBoundaryStyle" -> Automatic, 
-        "DefaultGraphicsInteraction" -> {
-         "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
-          "Effects" -> {
-           "Highlight" -> {"ratio" -> 2}, "HighlightPoint" -> {"ratio" -> 2}, 
-            "Droplines" -> {
-             "freeformCursorMode" -> True, 
-              "placement" -> {"x" -> "All", "y" -> "None"}}}}, 
-        "DefaultPlotStyle" -> Automatic, "DomainPadding" -> Scaled[0.02], 
-        "RangePadding" -> Scaled[0.05]},
-      PlotLabel->FormBox[
-        StyleBox[
-         InterpretationBox[
-         "\"x = \\!\\(\\*FormBox[\\\"0.5`\\\", TraditionalForm]\\)\"", 
-          StringForm["x = ``", 0.5], Editable -> False], Bold, 14, 
-         StripOnInput -> False], TraditionalForm]], 
-     GraphicsBox[RasterBox[CompressedData["
-1:eJxTTMoPSmVmYGBggWIQu0FmzkJpvqv2KS9rD8Wm3bVnndmbHKf2zv5Y5/oy
-kefH7FsdZ7pN7r5sf1jAstb2/tsRJ156VEBz9prX9mukfvB/XHHPvunKJOOd
-e0+RbA6ucAYAymPBiw==
-       "], {{0, 0}, {4, 4}}, {0, 1}],
-      Axes->False,
-      Epilog->{{
-         InsetBox[
-          FormBox[
-           RowBox[{
-             FractionBox["1", "8"], " ", 
-             RowBox[{"(", 
-               RowBox[{
-                 RowBox[{"r", " ", 
-                   RowBox[{"(", 
-                    RowBox[{"r", "+", "2"}], ")"}]}], "+", "5"}], ")"}]}], 
-           TraditionalForm], {0.5, 3.5}], 
-         InsetBox[
-          FormBox["0", TraditionalForm], {1.5, 3.5}], 
-         InsetBox[
-          FormBox["0", TraditionalForm], {2.5, 3.5}], 
-         InsetBox[
-          FormBox[
-           RowBox[{
-             RowBox[{"-", 
-               FractionBox["1", "8"]}], " ", 
-             RowBox[{"(", 
-               RowBox[{"r", "-", "1"}], ")"}], " ", 
-             RowBox[{"(", 
-               RowBox[{"r", "+", "3"}], ")"}]}], TraditionalForm], {3.5, 
-          3.5}]}, {
-         InsetBox[
-          FormBox["0", TraditionalForm], {0.5, 2.5}], 
-         InsetBox[
-          FormBox["0", TraditionalForm], {1.5, 2.5}], 
-         InsetBox[
-          FormBox["0", TraditionalForm], {2.5, 2.5}], 
-         InsetBox[
-          FormBox["0", TraditionalForm], {3.5, 2.5}]}, {
-         InsetBox[
-          FormBox["0", TraditionalForm], {0.5, 1.5}], 
-         InsetBox[
-          FormBox["0", TraditionalForm], {1.5, 1.5}], 
-         InsetBox[
-          FormBox["0", TraditionalForm], {2.5, 1.5}], 
-         InsetBox[
-          FormBox["0", TraditionalForm], {3.5, 1.5}]}, {
-         InsetBox[
-          FormBox[
-           RowBox[{
-             RowBox[{"-", 
-               FractionBox["1", "8"]}], " ", 
-             RowBox[{"(", 
-               RowBox[{"r", "-", "1"}], ")"}], " ", 
-             RowBox[{"(", 
-               RowBox[{"r", "+", "3"}], ")"}]}], TraditionalForm], {0.5, 
-          0.5}], 
-         InsetBox[
-          FormBox["0", TraditionalForm], {1.5, 0.5}], 
-         InsetBox[
-          FormBox["0", TraditionalForm], {2.5, 0.5}], 
-         InsetBox[
-          FormBox[
-           RowBox[{
-             FractionBox["1", "8"], " ", 
-             RowBox[{"(", 
-               RowBox[{"r", "-", "1"}], ")"}], " ", 
-             RowBox[{"(", 
-               RowBox[{"r", "+", "3"}], ")"}]}], TraditionalForm], {3.5, 
-          0.5}]}},
-      Frame->True,
-      FrameLabel->{None, None},
-      FrameStyle->Automatic,
-      FrameTicks->{{{{3.5, 
-           FormBox["\"I\"", TraditionalForm]}, {2.5, 
-           FormBox["\"X\"", TraditionalForm]}, {1.5, 
-           FormBox["\"Y\"", TraditionalForm]}, {0.5, 
-           FormBox["\"Z\"", TraditionalForm]}}, None}, {{{0.5, 
-           FormBox["\"I\"", TraditionalForm]}, {1.5, 
-           FormBox["\"X\"", TraditionalForm]}, {2.5, 
-           FormBox["\"Y\"", TraditionalForm]}, {3.5, 
-           FormBox["\"Z\"", TraditionalForm]}}, None}},
-      FrameTicksStyle->Opacity[1],
-      GridLines->Automatic,
-      GridLinesStyle->Directive[
-        GrayLevel[0, 0.4], 
-        AbsoluteThickness[1], 
-        AbsoluteDashing[{1, 2}]],
-      ImageSize->300,
-      Method->{
-       "GridLinesInFront" -> True, "AxisPadding" -> Scaled[0.02], 
-        "DefaultBoundaryStyle" -> Automatic, 
-        "DefaultGraphicsInteraction" -> {
-         "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
-          "Effects" -> {
-           "Highlight" -> {"ratio" -> 2}, "HighlightPoint" -> {"ratio" -> 2}, 
-            "Droplines" -> {
-             "freeformCursorMode" -> True, 
-              "placement" -> {"x" -> "All", "y" -> "None"}}}}, 
-        "DefaultPlotStyle" -> Automatic, "DomainPadding" -> Scaled[0.02], 
-        "RangePadding" -> Scaled[0.05]},
-      PlotLabel->FormBox[
-        StyleBox[
-         InterpretationBox[
-         "\"x = \\!\\(\\*FormBox[\\\"0.8`\\\", TraditionalForm]\\)\"", 
-          StringForm["x = ``", 0.8], Editable -> False], Bold, 14, 
-         StripOnInput -> False], TraditionalForm]], 
-     GraphicsBox[RasterBox[CompressedData["
-1:eJxTTMoPSmVmYGBggWIQ+1jn+jKR58fsWx1nuk3uvmx/WMCy1vb+W/tRcYi4
-6Ik3OlXqr+xFoh0vC2kftHfk35orwXqUauYDAJ/cwFA=
-       "], {{0, 0}, {4, 4}}, {0, 
-       1}],
-      Axes->False,
-      Epilog->{{
-         InsetBox[
-          FormBox[
-           RowBox[{
-             FractionBox["1", "8"], " ", 
-             RowBox[{"(", 
-               RowBox[{
-                 RowBox[{"r", " ", 
-                   RowBox[{"(", 
-                    RowBox[{"r", "+", "2"}], ")"}]}], "+", "5"}], ")"}]}], 
-           TraditionalForm], {0.5, 3.5}], 
-         InsetBox[
-          FormBox["0", TraditionalForm], {1.5, 3.5}], 
-         InsetBox[
-          FormBox["0", TraditionalForm], {2.5, 3.5}], 
-         InsetBox[
-          FormBox[
-           RowBox[{
-             RowBox[{"-", 
-               FractionBox["1", "8"]}], " ", 
-             RowBox[{"(", 
-               RowBox[{"r", "-", "1"}], ")"}], " ", 
-             RowBox[{"(", 
-               RowBox[{"r", "+", "3"}], ")"}]}], TraditionalForm], {3.5, 
-          3.5}]}, {
-         InsetBox[
-          FormBox["0", TraditionalForm], {0.5, 2.5}], 
-         InsetBox[
-          FormBox["0", TraditionalForm], {1.5, 2.5}], 
-         InsetBox[
-          FormBox["0", TraditionalForm], {2.5, 2.5}], 
-         InsetBox[
-          FormBox["0", TraditionalForm], {3.5, 2.5}]}, {
-         InsetBox[
-          FormBox["0", TraditionalForm], {0.5, 1.5}], 
-         InsetBox[
-          FormBox["0", TraditionalForm], {1.5, 1.5}], 
-         InsetBox[
-          FormBox["0", TraditionalForm], {2.5, 1.5}], 
-         InsetBox[
-          FormBox["0", TraditionalForm], {3.5, 1.5}]}, {
-         InsetBox[
-          FormBox[
-           RowBox[{
-             RowBox[{"-", 
-               FractionBox["1", "8"]}], " ", 
-             RowBox[{"(", 
-               RowBox[{"r", "-", "1"}], ")"}], " ", 
-             RowBox[{"(", 
-               RowBox[{"r", "+", "3"}], ")"}]}], TraditionalForm], {0.5, 
-          0.5}], 
-         InsetBox[
-          FormBox["0", TraditionalForm], {1.5, 0.5}], 
-         InsetBox[
-          FormBox["0", TraditionalForm], {2.5, 0.5}], 
-         InsetBox[
-          FormBox[
-           RowBox[{
-             FractionBox["1", "8"], " ", 
-             RowBox[{"(", 
-               RowBox[{"r", "-", "1"}], ")"}], " ", 
-             RowBox[{"(", 
-               RowBox[{"r", "+", "3"}], ")"}]}], TraditionalForm], {3.5, 
-          0.5}]}},
-      Frame->True,
-      FrameLabel->{None, None},
-      FrameStyle->Automatic,
-      FrameTicks->{{{{3.5, 
-           FormBox["\"I\"", TraditionalForm]}, {2.5, 
-           FormBox["\"X\"", TraditionalForm]}, {1.5, 
-           FormBox["\"Y\"", TraditionalForm]}, {0.5, 
-           FormBox["\"Z\"", TraditionalForm]}}, None}, {{{0.5, 
-           FormBox["\"I\"", TraditionalForm]}, {1.5, 
-           FormBox["\"X\"", TraditionalForm]}, {2.5, 
-           FormBox["\"Y\"", TraditionalForm]}, {3.5, 
-           FormBox["\"Z\"", TraditionalForm]}}, None}},
-      FrameTicksStyle->Opacity[1],
-      GridLines->Automatic,
-      GridLinesStyle->Directive[
-        GrayLevel[0, 0.4], 
-        AbsoluteThickness[1], 
-        AbsoluteDashing[{1, 2}]],
-      ImageSize->300,
-      Method->{
-       "GridLinesInFront" -> True, "AxisPadding" -> Scaled[0.02], 
-        "DefaultBoundaryStyle" -> Automatic, 
-        "DefaultGraphicsInteraction" -> {
-         "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
-          "Effects" -> {
-           "Highlight" -> {"ratio" -> 2}, "HighlightPoint" -> {"ratio" -> 2}, 
-            "Droplines" -> {
-             "freeformCursorMode" -> True, 
-              "placement" -> {"x" -> "All", "y" -> "None"}}}}, 
-        "DefaultPlotStyle" -> Automatic, "DomainPadding" -> Scaled[0.02], 
-        "RangePadding" -> Scaled[0.05]},
-      PlotLabel->FormBox[
-        StyleBox[
-         InterpretationBox[
-         "\"x = \\!\\(\\*FormBox[\\\"1.`\\\", TraditionalForm]\\)\"", 
-          StringForm["x = ``", 1.], Editable -> False], Bold, 14, 
-         StripOnInput -> False], TraditionalForm]]},
-    {
-     GraphicsBox[RasterBox[CompressedData["
-1:eJxTTMoPSmVmYGBggWIQ+1jn+jKR58fsWx1nuk3uvmx/WMCy1vb+W3tSxdes
-X8d1JemGfVvonomVKg/sVxzzNu90fEeyOYNNvGz18yXfz763rz+Yd2Pbivf2
-l47XOCwofkSyOVlem/jcxd/Y20vvzPP6+cZ+O1fSguz57+0BoZ/FVQ==
-       "], {{0, 0}, {
-       4, 4}}, {0, 1}],
-      Axes->False,
-      Epilog->{{
-         InsetBox[
-          FormBox[
-           RowBox[{
-             FractionBox["1", "8"], " ", 
-             RowBox[{"(", 
-               RowBox[{
-                 RowBox[{"r", " ", 
-                   RowBox[{"(", 
-                    RowBox[{"r", "+", "2"}], ")"}]}], "+", "5"}], ")"}]}], 
-           TraditionalForm], {0.5, 3.5}], 
-         InsetBox[
-          FormBox["0", TraditionalForm], {1.5, 3.5}], 
-         InsetBox[
-          FormBox["0", TraditionalForm], {2.5, 3.5}], 
-         InsetBox[
-          FormBox[
-           RowBox[{
-             RowBox[{"-", 
-               FractionBox["1", "8"]}], " ", 
-             RowBox[{"(", 
-               RowBox[{"r", "-", "1"}], ")"}], " ", 
-             RowBox[{"(", 
-               RowBox[{"r", "+", "3"}], ")"}]}], TraditionalForm], {3.5, 
-          3.5}]}, {
-         InsetBox[
-          FormBox["0", TraditionalForm], {0.5, 2.5}], 
-         InsetBox[
-          FormBox["0", TraditionalForm], {1.5, 2.5}], 
-         InsetBox[
-          FormBox["0", TraditionalForm], {2.5, 2.5}], 
-         InsetBox[
-          FormBox["0", TraditionalForm], {3.5, 2.5}]}, {
-         InsetBox[
-          FormBox["0", TraditionalForm], {0.5, 1.5}], 
-         InsetBox[
-          FormBox["0", TraditionalForm], {1.5, 1.5}], 
-         InsetBox[
-          FormBox["0", TraditionalForm], {2.5, 1.5}], 
-         InsetBox[
-          FormBox["0", TraditionalForm], {3.5, 1.5}]}, {
-         InsetBox[
-          FormBox[
-           RowBox[{
-             RowBox[{"-", 
-               FractionBox["1", "8"]}], " ", 
-             SuperscriptBox[
-              RowBox[{"(", 
-                RowBox[{"r", "-", "1"}], ")"}], "2"]}], TraditionalForm], {
-          0.5, 0.5}], 
-         InsetBox[
-          FormBox["0", TraditionalForm], {1.5, 0.5}], 
-         InsetBox[
-          FormBox["0", TraditionalForm], {2.5, 0.5}], 
-         InsetBox[
-          FormBox[
-           RowBox[{
-             FractionBox["1", "8"], " ", 
-             SuperscriptBox[
-              RowBox[{"(", 
-                RowBox[{"r", "-", "1"}], ")"}], "2"]}], TraditionalForm], {
-          3.5, 0.5}]}},
-      Frame->True,
-      FrameLabel->{None, None},
-      FrameStyle->Automatic,
-      FrameTicks->{{{{3.5, 
-           FormBox["\"I\"", TraditionalForm]}, {2.5, 
-           FormBox["\"X\"", TraditionalForm]}, {1.5, 
-           FormBox["\"Y\"", TraditionalForm]}, {0.5, 
-           FormBox["\"Z\"", TraditionalForm]}}, None}, {{{0.5, 
-           FormBox["\"I\"", TraditionalForm]}, {1.5, 
-           FormBox["\"X\"", TraditionalForm]}, {2.5, 
-           FormBox["\"Y\"", TraditionalForm]}, {3.5, 
-           FormBox["\"Z\"", TraditionalForm]}}, None}},
-      FrameTicksStyle->Opacity[1],
-      GridLines->Automatic,
-      GridLinesStyle->Directive[
-        GrayLevel[0, 0.4], 
-        AbsoluteThickness[1], 
-        AbsoluteDashing[{1, 2}]],
-      ImageSize->300,
-      Method->{
-       "GridLinesInFront" -> True, "AxisPadding" -> Scaled[0.02], 
-        "DefaultBoundaryStyle" -> Automatic, 
-        "DefaultGraphicsInteraction" -> {
-         "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
-          "Effects" -> {
-           "Highlight" -> {"ratio" -> 2}, "HighlightPoint" -> {"ratio" -> 2}, 
-            "Droplines" -> {
-             "freeformCursorMode" -> True, 
-              "placement" -> {"x" -> "All", "y" -> "None"}}}}, 
-        "DefaultPlotStyle" -> Automatic, "DomainPadding" -> Scaled[0.02], 
-        "RangePadding" -> Scaled[0.05]},
-      PlotLabel->FormBox[
-        StyleBox[
-         InterpretationBox[
-         "\"x = \\!\\(\\*FormBox[\\\"0.`\\\", TraditionalForm]\\)\"", 
-          StringForm["x = ``", 0.], Editable -> False], Bold, 14, 
-         StripOnInput -> False], TraditionalForm]], 
-     GraphicsBox[RasterBox[CompressedData["
-1:eJxTTMoPSmVmYGBggWIQ+1jn+jKR58fsWx1nuk3uvmx/WMCy1vb+W3tSxZ9t
-FdrlrXTW3vqIfc7Li9fsuzZtn/L5K+nmDDbxtUtE7wf8eGufEfm9v1Xjpf1/
-h52595UvkmyOieijiRWej+yld92U1zB/ai9Q7Hm1bPM7ewACecUv
-       "], {{0, 0}, {4, 
-       4}}, {0, 1}],
-      Axes->False,
-      Epilog->{{
-         InsetBox[
-          FormBox[
-           RowBox[{
-             FractionBox["1", "8"], " ", 
-             RowBox[{"(", 
-               RowBox[{
-                 RowBox[{"r", " ", 
-                   RowBox[{"(", 
-                    RowBox[{"r", "+", "2"}], ")"}]}], "+", "5"}], ")"}]}], 
-           TraditionalForm], {0.5, 3.5}], 
-         InsetBox[
-          FormBox["0", TraditionalForm], {1.5, 3.5}], 
-         InsetBox[
-          FormBox["0", TraditionalForm], {2.5, 3.5}], 
-         InsetBox[
-          FormBox[
-           RowBox[{
-             RowBox[{"-", 
-               FractionBox["1", "8"]}], " ", 
-             RowBox[{"(", 
-               RowBox[{"r", "-", "1"}], ")"}], " ", 
-             RowBox[{"(", 
-               RowBox[{"r", "+", "3"}], ")"}]}], TraditionalForm], {3.5, 
-          3.5}]}, {
-         InsetBox[
-          FormBox["0", TraditionalForm], {0.5, 2.5}], 
-         InsetBox[
-          FormBox["0", TraditionalForm], {1.5, 2.5}], 
-         InsetBox[
-          FormBox["0", TraditionalForm], {2.5, 2.5}], 
-         InsetBox[
-          FormBox["0", TraditionalForm], {3.5, 2.5}]}, {
-         InsetBox[
-          FormBox["0", TraditionalForm], {0.5, 1.5}], 
-         InsetBox[
-          FormBox["0", TraditionalForm], {1.5, 1.5}], 
-         InsetBox[
-          FormBox["0", TraditionalForm], {2.5, 1.5}], 
-         InsetBox[
-          FormBox["0", TraditionalForm], {3.5, 1.5}]}, {
-         InsetBox[
-          FormBox[
-           RowBox[{
-             RowBox[{"-", 
-               FractionBox["1", "8"]}], " ", 
-             SuperscriptBox[
-              RowBox[{"(", 
-                RowBox[{"r", "-", "1"}], ")"}], "2"]}], TraditionalForm], {
-          0.5, 0.5}], 
-         InsetBox[
-          FormBox["0", TraditionalForm], {1.5, 0.5}], 
-         InsetBox[
-          FormBox["0", TraditionalForm], {2.5, 0.5}], 
-         InsetBox[
-          FormBox[
-           RowBox[{
-             FractionBox["1", "8"], " ", 
-             SuperscriptBox[
-              RowBox[{"(", 
-                RowBox[{"r", "-", "1"}], ")"}], "2"]}], TraditionalForm], {
-          3.5, 0.5}]}},
-      Frame->True,
-      FrameLabel->{None, None},
-      FrameStyle->Automatic,
-      FrameTicks->{{{{3.5, 
-           FormBox["\"I\"", TraditionalForm]}, {2.5, 
-           FormBox["\"X\"", TraditionalForm]}, {1.5, 
-           FormBox["\"Y\"", TraditionalForm]}, {0.5, 
-           FormBox["\"Z\"", TraditionalForm]}}, None}, {{{0.5, 
-           FormBox["\"I\"", TraditionalForm]}, {1.5, 
-           FormBox["\"X\"", TraditionalForm]}, {2.5, 
-           FormBox["\"Y\"", TraditionalForm]}, {3.5, 
-           FormBox["\"Z\"", TraditionalForm]}}, None}},
-      FrameTicksStyle->Opacity[1],
-      GridLines->Automatic,
-      GridLinesStyle->Directive[
-        GrayLevel[0, 0.4], 
-        AbsoluteThickness[1], 
-        AbsoluteDashing[{1, 2}]],
-      ImageSize->300,
-      Method->{
-       "GridLinesInFront" -> True, "AxisPadding" -> Scaled[0.02], 
-        "DefaultBoundaryStyle" -> Automatic, 
-        "DefaultGraphicsInteraction" -> {
-         "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
-          "Effects" -> {
-           "Highlight" -> {"ratio" -> 2}, "HighlightPoint" -> {"ratio" -> 2}, 
-            "Droplines" -> {
-             "freeformCursorMode" -> True, 
-              "placement" -> {"x" -> "All", "y" -> "None"}}}}, 
-        "DefaultPlotStyle" -> Automatic, "DomainPadding" -> Scaled[0.02], 
-        "RangePadding" -> Scaled[0.05]},
-      PlotLabel->FormBox[
-        StyleBox[
-         InterpretationBox[
-         "\"x = \\!\\(\\*FormBox[\\\"0.5`\\\", TraditionalForm]\\)\"", 
-          StringForm["x = ``", 0.5], Editable -> False], Bold, 14, 
-         StripOnInput -> False], TraditionalForm]], 
-     GraphicsBox[RasterBox[CompressedData["
-1:eJxTTMoPSmVmYGBggWIQ+1jn+jKR58fsWx1nuk3uvmx/WMCy1vb+W3tSxU/v
-LG8MeHbc/iCfQNdWwSv2b7lz9t1/RLo5g0289KiA5uw1r+3XSP3g/7jinn3T
-lUnGO/eeItmcBpk5C6X5rtqnvKw9FJt21551Zm9ynNo7ewDZZsPU
-       "], {{0, 0}, {4, 
-       4}}, {0, 1}],
-      Axes->False,
-      Epilog->{{
-         InsetBox[
-          FormBox[
-           RowBox[{
-             FractionBox["1", "8"], " ", 
-             RowBox[{"(", 
-               RowBox[{
-                 RowBox[{"r", " ", 
-                   RowBox[{"(", 
-                    RowBox[{"r", "+", "2"}], ")"}]}], "+", "5"}], ")"}]}], 
-           TraditionalForm], {0.5, 3.5}], 
-         InsetBox[
-          FormBox["0", TraditionalForm], {1.5, 3.5}], 
-         InsetBox[
-          FormBox["0", TraditionalForm], {2.5, 3.5}], 
-         InsetBox[
-          FormBox[
-           RowBox[{
-             RowBox[{"-", 
-               FractionBox["1", "8"]}], " ", 
-             RowBox[{"(", 
-               RowBox[{"r", "-", "1"}], ")"}], " ", 
-             RowBox[{"(", 
-               RowBox[{"r", "+", "3"}], ")"}]}], TraditionalForm], {3.5, 
-          3.5}]}, {
-         InsetBox[
-          FormBox["0", TraditionalForm], {0.5, 2.5}], 
-         InsetBox[
-          FormBox["0", TraditionalForm], {1.5, 2.5}], 
-         InsetBox[
-          FormBox["0", TraditionalForm], {2.5, 2.5}], 
-         InsetBox[
-          FormBox["0", TraditionalForm], {3.5, 2.5}]}, {
-         InsetBox[
-          FormBox["0", TraditionalForm], {0.5, 1.5}], 
-         InsetBox[
-          FormBox["0", TraditionalForm], {1.5, 1.5}], 
-         InsetBox[
-          FormBox["0", TraditionalForm], {2.5, 1.5}], 
-         InsetBox[
-          FormBox["0", TraditionalForm], {3.5, 1.5}]}, {
-         InsetBox[
-          FormBox[
-           RowBox[{
-             RowBox[{"-", 
-               FractionBox["1", "8"]}], " ", 
-             SuperscriptBox[
-              RowBox[{"(", 
-                RowBox[{"r", "-", "1"}], ")"}], "2"]}], TraditionalForm], {
-          0.5, 0.5}], 
-         InsetBox[
-          FormBox["0", TraditionalForm], {1.5, 0.5}], 
-         InsetBox[
-          FormBox["0", TraditionalForm], {2.5, 0.5}], 
-         InsetBox[
-          FormBox[
-           RowBox[{
-             FractionBox["1", "8"], " ", 
-             SuperscriptBox[
-              RowBox[{"(", 
-                RowBox[{"r", "-", "1"}], ")"}], "2"]}], TraditionalForm], {
-          3.5, 0.5}]}},
-      Frame->True,
-      FrameLabel->{None, None},
-      FrameStyle->Automatic,
-      FrameTicks->{{{{3.5, 
-           FormBox["\"I\"", TraditionalForm]}, {2.5, 
-           FormBox["\"X\"", TraditionalForm]}, {1.5, 
-           FormBox["\"Y\"", TraditionalForm]}, {0.5, 
-           FormBox["\"Z\"", TraditionalForm]}}, None}, {{{0.5, 
-           FormBox["\"I\"", TraditionalForm]}, {1.5, 
-           FormBox["\"X\"", TraditionalForm]}, {2.5, 
-           FormBox["\"Y\"", TraditionalForm]}, {3.5, 
-           FormBox["\"Z\"", TraditionalForm]}}, None}},
-      FrameTicksStyle->Opacity[1],
-      GridLines->Automatic,
-      GridLinesStyle->Directive[
-        GrayLevel[0, 0.4], 
-        AbsoluteThickness[1], 
-        AbsoluteDashing[{1, 2}]],
-      ImageSize->300,
-      Method->{
-       "GridLinesInFront" -> True, "AxisPadding" -> Scaled[0.02], 
-        "DefaultBoundaryStyle" -> Automatic, 
-        "DefaultGraphicsInteraction" -> {
-         "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
-          "Effects" -> {
-           "Highlight" -> {"ratio" -> 2}, "HighlightPoint" -> {"ratio" -> 2}, 
-            "Droplines" -> {
-             "freeformCursorMode" -> True, 
-              "placement" -> {"x" -> "All", "y" -> "None"}}}}, 
-        "DefaultPlotStyle" -> Automatic, "DomainPadding" -> Scaled[0.02], 
-        "RangePadding" -> Scaled[0.05]},
-      PlotLabel->FormBox[
-        StyleBox[
-         InterpretationBox[
-         "\"x = \\!\\(\\*FormBox[\\\"0.8`\\\", TraditionalForm]\\)\"", 
-          StringForm["x = ``", 0.8], Editable -> False], Bold, 14, 
-         StripOnInput -> False], TraditionalForm]], 
-     GraphicsBox[RasterBox[CompressedData["
-1:eJxTTMoPSmVmYGBggWIQ+1jn+jKR58fsWx1nuk3uvmx/WMCy1vb+W/tRcYi4
-6Ik3OlXqr+xFoh0vC2kftHfk35orwXqUauYDAJ/cwFA=
-       "], {{0, 0}, {4, 4}}, {0, 
-       1}],
-      Axes->False,
-      Epilog->{{
-         InsetBox[
-          FormBox[
-           RowBox[{
-             FractionBox["1", "8"], " ", 
-             RowBox[{"(", 
-               RowBox[{
-                 RowBox[{"r", " ", 
-                   RowBox[{"(", 
-                    RowBox[{"r", "+", "2"}], ")"}]}], "+", "5"}], ")"}]}], 
-           TraditionalForm], {0.5, 3.5}], 
-         InsetBox[
-          FormBox["0", TraditionalForm], {1.5, 3.5}], 
-         InsetBox[
-          FormBox["0", TraditionalForm], {2.5, 3.5}], 
-         InsetBox[
-          FormBox[
-           RowBox[{
-             RowBox[{"-", 
-               FractionBox["1", "8"]}], " ", 
-             RowBox[{"(", 
-               RowBox[{"r", "-", "1"}], ")"}], " ", 
-             RowBox[{"(", 
-               RowBox[{"r", "+", "3"}], ")"}]}], TraditionalForm], {3.5, 
-          3.5}]}, {
-         InsetBox[
-          FormBox["0", TraditionalForm], {0.5, 2.5}], 
-         InsetBox[
-          FormBox["0", TraditionalForm], {1.5, 2.5}], 
-         InsetBox[
-          FormBox["0", TraditionalForm], {2.5, 2.5}], 
-         InsetBox[
-          FormBox["0", TraditionalForm], {3.5, 2.5}]}, {
-         InsetBox[
-          FormBox["0", TraditionalForm], {0.5, 1.5}], 
-         InsetBox[
-          FormBox["0", TraditionalForm], {1.5, 1.5}], 
-         InsetBox[
-          FormBox["0", TraditionalForm], {2.5, 1.5}], 
-         InsetBox[
-          FormBox["0", TraditionalForm], {3.5, 1.5}]}, {
-         InsetBox[
-          FormBox[
-           RowBox[{
-             RowBox[{"-", 
-               FractionBox["1", "8"]}], " ", 
-             SuperscriptBox[
-              RowBox[{"(", 
-                RowBox[{"r", "-", "1"}], ")"}], "2"]}], TraditionalForm], {
-          0.5, 0.5}], 
-         InsetBox[
-          FormBox["0", TraditionalForm], {1.5, 0.5}], 
-         InsetBox[
-          FormBox["0", TraditionalForm], {2.5, 0.5}], 
-         InsetBox[
-          FormBox[
-           RowBox[{
-             FractionBox["1", "8"], " ", 
-             SuperscriptBox[
-              RowBox[{"(", 
-                RowBox[{"r", "-", "1"}], ")"}], "2"]}], TraditionalForm], {
-          3.5, 0.5}]}},
-      Frame->True,
-      FrameLabel->{None, None},
-      FrameStyle->Automatic,
-      FrameTicks->{{{{3.5, 
-           FormBox["\"I\"", TraditionalForm]}, {2.5, 
-           FormBox["\"X\"", TraditionalForm]}, {1.5, 
-           FormBox["\"Y\"", TraditionalForm]}, {0.5, 
-           FormBox["\"Z\"", TraditionalForm]}}, None}, {{{0.5, 
-           FormBox["\"I\"", TraditionalForm]}, {1.5, 
-           FormBox["\"X\"", TraditionalForm]}, {2.5, 
-           FormBox["\"Y\"", TraditionalForm]}, {3.5, 
-           FormBox["\"Z\"", TraditionalForm]}}, None}},
-      FrameTicksStyle->Opacity[1],
-      GridLines->Automatic,
-      GridLinesStyle->Directive[
-        GrayLevel[0, 0.4], 
-        AbsoluteThickness[1], 
-        AbsoluteDashing[{1, 2}]],
-      ImageSize->300,
-      Method->{
-       "GridLinesInFront" -> True, "AxisPadding" -> Scaled[0.02], 
-        "DefaultBoundaryStyle" -> Automatic, 
-        "DefaultGraphicsInteraction" -> {
-         "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
-          "Effects" -> {
-           "Highlight" -> {"ratio" -> 2}, "HighlightPoint" -> {"ratio" -> 2}, 
-            "Droplines" -> {
-             "freeformCursorMode" -> True, 
-              "placement" -> {"x" -> "All", "y" -> "None"}}}}, 
-        "DefaultPlotStyle" -> Automatic, "DomainPadding" -> Scaled[0.02], 
-        "RangePadding" -> Scaled[0.05]},
-      PlotLabel->FormBox[
-        StyleBox[
-         InterpretationBox[
-         "\"x = \\!\\(\\*FormBox[\\\"1.`\\\", TraditionalForm]\\)\"", 
-          StringForm["x = ``", 1.], Editable -> False], Bold, 14, 
-         StripOnInput -> False], TraditionalForm]]}
-   },
-   AutoDelete->False,
-   GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
-  "Grid"]], "Output",
- CellChangeTimes->{3.8974951508315268`*^9},
- CellLabel->
-  "Out[119]=",ExpressionUUID->"b9db1282-e053-48ac-a3d0-55c290955e71"]
-}, Open  ]]
+  "In[144]:=",ExpressionUUID->"50d6966a-082f-48fd-a601-7027d567de5a"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]
@@ -9168,14 +8113,10 @@ Cell[293610, 6619, 7128, 153, 1413, "Input",ExpressionUUID->"fa43f997-bfa6-4e4a-
 Cell[300741, 6774, 13656, 314, 1288, "Output",ExpressionUUID->"5e816eba-d729-478c-b385-891fe8af881f"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[314434, 7093, 6255, 159, 972, "Input",ExpressionUUID->"2dd28680-0b13-452a-ae56-8008b859396f"],
-Cell[320692, 7254, 24252, 595, 1320, "Output",ExpressionUUID->"2df0c1a4-cd69-40c4-9ddc-cb10af6894c1"]
+Cell[314434, 7093, 6534, 164, 945, "Input",ExpressionUUID->"2dd28680-0b13-452a-ae56-8008b859396f"],
+Cell[320971, 7259, 24476, 600, 1336, "Output",ExpressionUUID->"f357a50f-a6b5-4c67-b1ec-231e7afa000c"]
 }, Open  ]],
-Cell[344959, 7852, 448, 12, 173, "Input",ExpressionUUID->"50d6966a-082f-48fd-a601-7027d567de5a"],
-Cell[CellGroupData[{
-Cell[345432, 7868, 6366, 166, 943, "Input",ExpressionUUID->"78647062-6288-4129-b376-5a48021698d3"],
-Cell[351801, 8036, 33649, 892, 1446, "Output",ExpressionUUID->"b9db1282-e053-48ac-a3d0-55c290955e71"]
-}, Open  ]]
+Cell[345462, 7862, 448, 12, 123, "Input",ExpressionUUID->"50d6966a-082f-48fd-a601-7027d567de5a"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]
