@@ -1,7 +1,7 @@
 # Waveguide Quantum Electrodynamics: From Non-Classical Resource Generation to Quantum Technological Applications
 ## Bruno Ortega Goes, M.Sc.
 
-This repository is dedicated to the comprehensive collection of codes utilized to generate the plots and/or analytical expressions showcased within the pages of my Ph.D. thesis.
+This repository is dedicated to the comprehensive collection of codes utilized to generate the plots and/or analytical expressions showcased within the pages of my Ph.D. thesis. I use either Python, which utilizes [qutip](https://qutip.org/) or Mathematica, where I use [Melt!](https://melt1.notion.site/). 
 
 
 [Chapter 1: Quantum measurements](Chapter1)
