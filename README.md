@@ -21,11 +21,8 @@ This chapter is based on the results published in [Phys. Rev. A 107, 023710](htt
 In this chapter, we investigate the measurement of the spin state in a degenerate four-level system (4LS) with linear optical selection rules. The goal is to achieve a non-destructive measurement of the spin state with limited energy resources. The system interacts with fields of different natures: a resonant coherent field
 with Poissonian statistics and a superposition of vacuum and a single photon with sub-Poissonian statistics. The restricted energy budget, where both fields have at most one photon on average, poses a challenge. We explore the potential quantum advantage in the pre-measurement process, where entanglement is generated between the field and the
 4LS, and in the collapse step, where the light state is measured to infer the spin state. These steps are crucial for key quantum information protocols, such as the generation of cluster states. Finally, we provide an application proposing a single-rail photon-photon gate, which is a two-qubit photonic gate based on the absence (vacuum) or presence
-(single photon) of a photon as the logical basis. We consider the ideal scenario where the main imperfection arises from the change in the temporal shape of the scattered field. By utilizing the solutions obtained in [Chapter 2], we derive an analytical expression to account for this imperfection. We characterize
+(single photon) of a photon as the logical basis. We consider the ideal scenario where the main imperfection arises from the change in the temporal shape of the scattered field. By utilizing the solutions obtained in Chapter 2, we derive an analytical expression to account for this imperfection. We characterize
 the error by computing the state-averaged fidelity and the error process matrix for the photon-photon gate. The findings in this chapter are based on results reported in Ref. [arxiv 2205.09623](https://arxiv.org/pdf/2205.09623.pdf).
-
-
-We propose an ideal protocol for implementing a photon-photon-controlled phase gate in the monochromatic regime. We introduce a parameter to quantify the deviation of the scattered field from the desired state, which serves as the main source of error. The gate expressions are derived based on this parameter. Additionally, we perform an error analysis by evaluating the fidelity and error process matrix, providing definitions and discussions for these concepts.
 
 [Chapter 5: The spin-photon interface subjected to an in-plane magnetic field](Chapter5)
 
