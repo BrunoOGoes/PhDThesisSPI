@@ -26,7 +26,7 @@ the error by computing the state-averaged fidelity and the error process matrix 
 
 [Chapter 5: The spin-photon interface subjected to an in-plane magnetic field](Chapter5)
 
-In this chapter, we focus on analyzing the spin dynamics in the LRP under realistic experimental conditions of Ref. [Nature Photonics volume 17, pages 582–587 (2023)](https://www.nature.com/articles/s41566-023-01186-0).
+In this chapter, we focus on analyzing the spin dynamics in the LRP under realistic experimental conditions of Ref. [Nat. Photon. 17, 582–587 (2023)](https://www.nature.com/articles/s41566-023-01186-0).
 We consider a system where the ground state consists of electron spins and the excited state comprises trions, both influenced by the magnetic
 field with characteristic Larmor frequencies: $\Omega_{g}$ and $\Omega_{e}$, respectively. The presence of parasitic fields affecting the electron
 spin introduces an inherent physical difference between these frequencies, which affects the fidelity of spin rotations. Another significant complication is the necessity to target a moving spin state with a pulse of light. This dynamic nature introduces complexities in accurately timing the pulse delivery.
