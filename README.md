@@ -1,4 +1,4 @@
-# Waveguide Quantum Electrodynamics: From Non-Classical Resource Generation to Quantum Technological Applications
+# Exactly modeling the unitary dynamics of quantum interfaces with collision models
 ## Bruno Ortega Goes, M.Sc.
 
 This repository is dedicated to the comprehensive collection of codes utilized to generate the plots and/or analytical expressions showcased within the pages of my Ph.D. thesis. I use either Python, which utilizes [qutip](https://qutip.org/) or Mathematica, where I use [Melt!](https://melt1.notion.site/). 
